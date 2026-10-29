@@ -1,4 +1,4 @@
-path: /kaggle/working/dataset
+path: object-detection/your-existing-DataYAML.py
 train: train/images
 val: val/images
 nc: 4
