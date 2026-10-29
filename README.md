@@ -1,5 +1,39 @@
+# Post-Disaster Damage Assessment Using Machine Learning and Semantic Communication
+
+## Overview
+This undergraduate research project focuses on ground-level post-disaster damage assessment using machine learning and computer vision, based on disaster-affected images collected in Sri Lanka.
+
+## Project Components
+
+### 1. Object Detection
+- Dataset: 1,349 annotated images
+- Classes: Landslide, Uprooted Tree, Structures, and Debris
+- Models evaluated: YOLO11n, YOLOv8s, and RT-DETR
+- Selected lightweight baseline: YOLO11n
+
+### 2. Image Segmentation
+- Dataset: 678 polygon-annotated images
+- Focus: Delineating disaster-affected areas and identifying hazard boundaries
+- Models evaluated: U-Net, DeepLabV3+, Mask R-CNN, and YOLO11s-seg
+
+### 3. Image Quality Assessment
+Evaluating input image suitability for reliable damage assessment.
+
+### 4. Mobile Application
+Developing a mobile application to support image submission and integration with the assessment workflow.
+
+## Current Status
+Object detection, image segmentation, image quality assessment, mobile application development, and model analysis have been carried out. Semantic communication remains part of the ongoing research direction.
+
+## Technologies
+Python · PyTorch · Ultralytics YOLO · Label Studio · Computer Vision
+
+## Team Project
+Undergraduate Research Project — University of Peradeniya, Sri Lanka.
+
 # fyp-object-detection
 Object detection module for ground-level post-disaster damage assessment using YOLO11n, YOLOv8s, and RT-DETR-l
+
 # Object Detection for Post-Disaster Damage Assessment
 
 This repository contains the training and evaluation scripts for the object detection module of a ground-level post-disaster damage assessment system. Three architectures are benchmarked: YOLO11n, YOLOv8s, and RT-DETR-l.
